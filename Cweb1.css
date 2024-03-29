@@ -1,0 +1,83 @@
+.each-movie{
+  text-align: center;
+  color:white;
+  font-size: 20px;
+  
+ 
+
+}
+.movie{
+  grid-template-columns:repeat(8,1fr);
+  gap: 0.8em;
+  display: grid;
+ width:auto;
+ background-color: rgb(26, 25, 25);
+ 
+ overflow: auto;
+ scrollbar-width: none;
+ white-space: nowrap;
+padding-bottom: 1%;
+ 
+}
+
+img{
+  height: 8em;
+  width: 16em;
+
+}
+
+.Head{
+
+  padding-top: 6%;
+  text-align: left;
+  color: white;
+  background-color: rgb(26, 25, 25);
+}
+#m-h{
+  font-size: 50px;
+ font-weight: 1000;
+}
+.sub{
+  font-size: 20px;
+}
+.s{
+  color: white;
+  font-size: 20px;
+  background-color: rgb(26, 25, 25);
+margin-top: 0%;
+margin-bottom: 0%;
+padding-bottom: 2%;
+
+padding-top: 2%;
+}
+
+.body{
+  padding-left: 3%;
+ padding-right: 3%;
+ background-color: rgb(26, 25, 25);
+}
+
+.previous{
+ background-color: transparent;
+ position: absolute;
+ margin-top: 3%;
+ 
+ font-size: 50px;
+  font-weight: 600;
+  left:0;
+  padding-left: 1%;
+  text-decoration: none;
+  color:rgb(214, 0, 0);
+
+}
+.next{
+  background-color: transparent;
+  position: absolute;
+  margin-top: 3%;
+  text-decoration: none;
+ right:0;
+ padding-right: 1%;
+  font-size: 50px;
+  font-weight: 600;
+  color:rgb(214, 0, 0);
+}

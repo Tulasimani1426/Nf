@@ -1,0 +1,58 @@
+li{
+    padding: 8px;
+}
+.col1{
+  
+    background-color:rgb(26, 25, 25);
+    color: gray;
+    float: left;
+    width: 25%;
+    font-size: 14px;
+    
+}
+.col2{
+  
+    background-color: rgb(26, 25, 25);
+    color: gray;
+    float: left;
+    width: 25%;
+    font-size: 14px;
+    
+    
+}
+.col3{
+  
+    background-color: rgb(26, 25, 25);
+    color: gray;
+    float:right;
+    width: 25%;
+    font-size: 14px;
+    
+    
+}
+
+.col4{
+  
+    background-color: rgb(26, 25, 25);
+    color: gray;
+    float: right;
+    width: 30%;
+    font-size: 14px;
+    
+    
+}
+.row{
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: rgb(26, 25, 25);
+    padding-bottom: 8%;
+}
+
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}

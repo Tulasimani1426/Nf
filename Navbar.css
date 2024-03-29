@@ -1,0 +1,62 @@
+.main{
+    height: 2.3em;
+    width:100%;
+    margin-top: 0%;
+    background-color: black;
+    padding: 8px;
+    margin-bottom: 8px;
+    position: fixed;
+    top:0;
+    padding-left: 2.6%;
+ padding-right: 2%;
+
+  }
+  .heading{
+    font-size: 33px;
+    margin-top: 0%;
+    color:rgb(214, 0, 0);
+    font-family: Lucida Sans;
+  }
+  .logo{
+    height: 100%; width: 8%;
+    
+    
+  }
+  #join{
+    height:30px;
+    width: 100px;
+    right:15%;
+    font-size: 12px;
+    top:20%; color: white;
+    position: absolute;
+    border-radius: 5px;
+    background-color:rgb(214, 0, 0);
+    border:solid 1px white;
+  }
+  #join:hover{
+    background-color: red;
+
+  }
+  #sign{
+    height:30px;
+    width: 100px;
+    right:8%;
+    background-color: transparent;
+    border-radius: 5px;
+    border:solid 1px white;
+    top:20%; color: white;
+    position: absolute;
+  }
+  #sign:hover{
+  background-color: rgb(58, 58, 58);
+  }
+  #line{
+    position: absolute;
+    top:8%;
+    font-size: 13px;
+    right:23%;
+  }
+  button{
+    cursor:pointer;
+  }
+ 
